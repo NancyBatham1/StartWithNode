@@ -1,0 +1,35 @@
+// SYNCRONOUS FILE READING
+// const syncfileobj = new MyFileSystemSync();
+// const dirname = "Uploads";
+// const filename = "one.txt";
+// const exactpath = path.join(dirname, filename)
+// console.log("1")
+// syncfileobj.makeDirectory(dirname);
+// console.log("3")
+// syncfileobj.makeFile(exactpath,"hello world");
+// syncfileobj.appendFile(exactpath," after hello world content"); 
+// console.log(syncfileobj.readFile(exactpath));
+// syncfileobj.deleteFile(exactpath);
+// syncfileobj.deleteDirectory(dirname);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// ASYNCRONOUS FILE READING
+// const asyncfileobj = new MyFileSystemAsync();
+// const dirname = "Uploads";
+// const filename = "one.txt";
+// const exactpath = path.join(dirname, filename)
+// asyncfileobj.makeDirectory(dirname);
+// asyncfileobj.makeFile(exactpath,"hello world");
+// asyncfileobj.appendFile(exactpath," after hello world content"); 
+// asyncfileobj.readFile(exactpath).then(data => console.log(data));
+// asyncfileobj.deleteFile(exactpath);
+// asyncfileobj.deleteDirectory(dirname); 
+ 
+ //////////////////
+npm run start
+///run specific file 
+node <fileName.ext>
+exmale: node myindex.ts
